@@ -5,6 +5,7 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import FilterControls from './components/company/FilterControls';
 import CompanyGrid from './components/company/CompanyGrid';
 import Footer from './components/footer/Footer';
+import CompanyModal from './components/company/CompanyModal';
 Chart.register(ArcElement, Tooltip, Legend);
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
   });
 
   useEffect(() => {
-    fetch('../public/data.json')
+    fetch('/data.json')
       .then(response => response.json())
       .then(data => {
         setCompanies(data);
@@ -71,6 +72,7 @@ if (error) return <div className="flex items-center justify-center h-screen text
         </section>
       </main>
       <Footer/>
+      <CompanyModal company={selectedCompany} onClose={() => setSelectedCompany(null)} />
     </>
   )
 }
