@@ -1,7 +1,7 @@
 import { ChevronDown, Search } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-function FilterControls({ filters, setFilters, categories, techStacks }) {
+function FilterControls({ filters, setFilters, techStacks }) {
 
     const [isTechDropdownOpen, setIsTechDropdownOpen] = useState(false);
     const techDropdownRef = useRef(null);
@@ -29,17 +29,10 @@ function FilterControls({ filters, setFilters, categories, techStacks }) {
 
     return (
         <div className="bg-white p-4 rounded-lg shadow-md mb-8 sticky top-[65px] z-30">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="relative">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="relative md:col-span-1">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
                     <input type="text" placeholder="Search by company name..." className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-[#D8A778] focus:border-[#D8A778]" value={filters.search} onChange={(e) => setFilters(prev => ({ ...prev, search: e.target.value }))} />
-                </div>
-                <div className="relative">
-                    <select className="w-full appearance-none px-4 py-2 border border-gray-300 rounded-lg focus:ring-[#D8A778] focus:border-[#D8A778] bg-white" value={filters.category} onChange={(e) => setFilters(prev => ({ ...prev, category: e.target.value }))}>
-                        <option value="all">All Categories</option>
-                        {categories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
-                    </select>
-                    <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" />
                 </div>
                 <div className="flex items-center space-x-2 bg-gray-100 p-1 rounded-lg">
                     {['all', 'hiring', 'layoffs'].map(status => (

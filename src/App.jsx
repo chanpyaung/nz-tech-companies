@@ -3,6 +3,8 @@ import Header from './components/header/Header'
 import Overview from './components/overview/Overview'
 import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import FilterControls from './components/company/FilterControls';
+import CompanyGrid from './components/company/CompanyGrid';
+import Footer from './components/footer/Footer';
 Chart.register(ArcElement, Tooltip, Legend);
 
 function App() {
@@ -38,6 +40,24 @@ function App() {
       })
   }, [])
 
+  useEffect(() => {
+    const result = companies.filter(company => {
+        const { search, category, status, techs } = filters;
+        const matchesSearch = company.name.toLowerCase().includes(search.toLowerCase());
+        const matchesCategory = category === 'all' || company.category === category;
+        const matchesStatus = status === 'all' ||
+                              (status === 'hiring' && (company.status === 'hiring' || company.status === 'layoffs_hiring')) ||
+                              (status === 'layoffs' && (company.status === 'layoffs' || company.status === 'layoffs_hiring'));
+        const matchesTech = techs.length === 0 || techs.every(tech => (company.techStack || []).includes(tech));
+        
+        return matchesSearch && matchesCategory && matchesStatus && matchesTech;
+    });
+    setFilteredCompanies(result);
+}, [filters, companies]);
+
+if (loading) return <div className="flex items-center justify-center h-screen">Loading...</div>;
+if (error) return <div className="flex items-center justify-center h-screen text-red-500">{error}</div>;
+
 
   return (
     <>
@@ -47,8 +67,10 @@ function App() {
         <section id="explorer" className="mb-12 scroll-mt-20">
           <h2 className="text-3xl font-bold text-center mb-8">Company Explorer</h2>
           <FilterControls filters={filters} setFilters={setFilters} categories={categories} techStacks={techStacks} />
+          <CompanyGrid companies={filteredCompanies} allCategories={categories} onSelectCompany={setSelectedCompany} />
         </section>
       </main>
+      <Footer/>
     </>
   )
 }

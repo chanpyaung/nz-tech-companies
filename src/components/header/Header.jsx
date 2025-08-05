@@ -9,7 +9,7 @@ function Header() {
                 <nav className="hidden md:flex space-x-8">
                     <a href="#overview" className="text-gray-600 hover:text-[#D8A778] transition-colors">Overview</a>
                     <a href="#explorer" className="text-gray-600 hover:text-[#D8A778] transition-colors">Explorer</a>
-                    <a href="#trends" className="text-gray-600 hover:text-[#D8A778] transition-colors">Trends</a>
+                    {/* <a href="#trends" className="text-gray-600 hover:text-[#D8A778] transition-colors">Trends</a> */}
                 </nav>
             </div>
         </div>
