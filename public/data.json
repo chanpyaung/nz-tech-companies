@@ -19,41 +19,6 @@
     },
     {
         "id": 2,
-        "name": "Fisher & Paykel Healthcare",
-        "category": "NZX-Listed & Large Enterprises",
-        "subSector": "HealthTech",
-        "status": "",
-        "description": "A leading designer, manufacturer, and marketer of products for respiratory care, surgery, and sleep apnea treatment.",
-        "notability": "NZ's second-largest tech company by market cap. Operates in over 120 countries.",
-        "evidence": "No recent layoff news was found; the company is focused on its growth trajectory.",
-        "link": "https://careers.fphcare.com/",
-        "techStack": [
-            "C++",
-            "Embedded C",
-            "Python",
-            "Altium"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Datacom Group",
-        "category": "NZX-Listed & Large Enterprises",
-        "subSector": "IT Consulting & Services",
-        "status": "layoffs_hiring",
-        "description": "New Zealand's largest IT services company, providing digital solutions, cloud services, and data centers.",
-        "notability": "Consistently ranked as NZ's largest tech company by the TIN200 index.",
-        "evidence": "Headcount reduced by 12% in the year to 2024, citing AI-driven efficiencies. The careers page still lists multiple technical roles.",
-        "link": "https://datacom.com/nz/en/careers",
-        "techStack": [
-            "Azure",
-            "AWS",
-            "Microsoft 365",
-            "Java",
-            ".NET"
-        ]
-    },
-    {
-        "id": 4,
         "name": "Rocket Lab",
         "category": "High-Growth Scale-Ups & Unicorns",
         "subSector": "Aerospace / Deep Tech",
@@ -70,13 +35,13 @@
         ]
     },
     {
-        "id": 5,
+        "id": 3,
         "name": "Halter",
         "category": "High-Growth Scale-Ups & Unicorns",
         "subSector": "AgriTech",
         "status": "hiring",
         "description": "Develops solar-powered smart collars and a software platform for virtual fencing and herd management.",
-        "notability": "Winner of the 2024 Deloitte Fast 50 with 1,539% revenue growth. Recently achieved 'unicorn' status.",
+        "notability": "Winner of the 2024 Deloitte Fast 50 with 1,539% revenue growth.",
         "evidence": "The careers page shows a large number of open positions in New Zealand across nearly all departments.",
         "link": "https://jobs.lever.co/halter",
         "techStack": [
@@ -88,14 +53,564 @@
         ]
     },
     {
+        "id": 4,
+        "name": "Pushpay",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "FinTech / SaaS",
+        "status": "hiring",
+        "description": "Provides a donor management system and church management software, primarily for the faith sector.",
+        "notability": "A significant NZ-founded tech company, though now heavily US-focused.",
+        "evidence": "The careers page lists an open role in Auckland for a Senior Site Reliability Engineer.",
+        "link": "https://job-boards.greenhouse.io/pushpay",
+        "techStack": [
+            "C#",
+            ".NET",
+            "React Native",
+            "Azure"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Cin7",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "SaaS / Retail",
+        "status": "layoffs",
+        "description": "Provides a cloud-based inventory management platform for retailers and wholesalers.",
+        "notability": "Winner of the PwC Hi-Tech Company of the Year 2023.",
+        "evidence": "Announced layoffs affecting 15% of its workforce in April 2023.",
+        "link": "https://www.cin7.com/careers/",
+        "techStack": [
+            "PHP",
+            "React",
+            "AWS",
+            "MySQL"
+        ]
+    },
+    {
         "id": 6,
-        "name": "Spark NZ",
+        "name": "LawVu",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "SaaS / LegalTech",
+        "status": "hiring",
+        "description": "Provides a legal workspace platform for in-house corporate legal teams.",
+        "notability": "A rapidly growing scale-up in the legal tech space.",
+        "evidence": "The careers page shows an open role for a Technical Lead.",
+        "link": "https://lawvu.com/careers/",
+        "techStack": [
+            "C#",
+            ".NET",
+            "Vue.js",
+            "Azure"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Starboard Maritime Intelligence",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "SaaS / Deep Tech",
+        "status": "",
+        "description": "Provides AI-powered maritime domain awareness software for government and security clients.",
+        "notability": "Winner of both Hi-Tech Startup of the Year and Most Innovative Software Solution in 2024.",
+        "evidence": "As a recent award-winning startup, it is likely in a growth phase.",
+        "link": "https://www.linkedin.com/company/starboard-nz/jobs/",
+        "techStack": [
+            "Python",
+            "React",
+            "PostGIS",
+            "AWS"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Tracksuit",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "SaaS / MarTech",
+        "status": "",
+        "description": "A brand tracking and marketing analytics platform.",
+        "notability": "Winner of the Hi-Tech Emerging Company of the Year 2024.",
+        "evidence": "As a recent award-winning emerging company, it is likely focused on growth.",
+        "link": "https://www.tracksuit.com/careers",
+        "techStack": [
+            "Ruby on Rails",
+            "React",
+            "PostgreSQL"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "ANZ Bank",
+        "category": "Banking & Financial Services",
+        "subSector": "Banking",
+        "status": "hiring",
+        "description": "One of New Zealand's largest banks, with a major in-house technology and digital division.",
+        "notability": "Major employer of tech talent, from graduate roles to senior engineers, focusing on cloud and mobile.",
+        "evidence": "Careers page shows consistent hiring for engineers, analysts, and cloud specialists.",
+        "link": "https://careers.anz.com/go/ANZ-Jobs-List/4739210/",
+        "techStack": [
+            "Java",
+            "React Native",
+            "Go",
+            "AWS",
+            "Terraform"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "ASB Bank",
+        "category": "Banking & Financial Services",
+        "subSector": "Banking",
+        "status": "hiring",
+        "description": "A leading New Zealand bank known for its innovation in digital and mobile banking services.",
+        "notability": "Consistently ranked as a top workplace and a leader in digital customer experience.",
+        "evidence": "Actively recruits for roles in software engineering, data science, and agile delivery.",
+        "link": "https://careers.asbgroup.co.nz/search?search=",
+        "techStack": [
+            ".NET",
+            "React",
+            "Azure",
+            "Swift",
+            "Kotlin"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "BNZ",
+        "category": "Banking & Financial Services",
+        "subSector": "Banking",
+        "status": "",
+        "description": "Bank of New Zealand, a major financial institution undergoing significant digital transformation.",
+        "notability": "Heavily invested in agile methodologies and modernising its core banking platforms.",
+        "evidence": "Regularly hires for tech roles, particularly in data, cloud, and cybersecurity.",
+        "link": "https://nab.wd3.myworkdayjobs.com/bnz_careers",
+        "techStack": [
+            "Java",
+            "JavaScript",
+            "AWS",
+            "Salesforce"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Westpac NZ",
+        "category": "Banking & Financial Services",
+        "subSector": "Banking",
+        "status": "",
+        "description": "One of the 'big four' banks, serving a wide range of personal and business customers.",
+        "notability": "Large technology team responsible for core banking, mobile apps, and digital services.",
+        "evidence": "Ongoing recruitment for IT professionals in areas like software development and infrastructure.",
+        "link": "https://westpacnz.wd105.myworkdayjobs.com/Westpac_Careers",
+        "techStack": [
+            ".NET",
+            "Java",
+            "Azure",
+            "React"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Harmoney",
+        "category": "Banking & Financial Services",
+        "subSector": "FinTech",
+        "status": "",
+        "description": "An online lending platform that provides personal loans.",
+        "notability": "A well-known NZ FinTech company, listed on the NZX and ASX.",
+        "evidence": "Hires developers and IT professionals for its platform development.",
+        "link": "https://www.harmoney.co.nz/about-us/careers",
+        "techStack": [
+            ".NET",
+            "React",
+            "AWS"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Sharesies",
+        "category": "Banking & Financial Services",
+        "subSector": "FinTech / SaaS",
+        "status": "",
+        "description": "An investment platform designed to make investing accessible to everyone.",
+        "notability": "Featured on the Matchstiq Top 50 list of best tech companies to work for.",
+        "evidence": "Underwent restructuring in 2023 but appears stable now.",
+        "link": "https://www.sharesies.nz/jobs",
+        "techStack": [
+            "Ruby on Rails",
+            "React",
+            "PostgreSQL",
+            "Heroku"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Trade Me",
+        "category": "Retail & E-Commerce",
+        "subSector": "Marketplace",
+        "status": "hiring",
+        "description": "New Zealand's largest online marketplace for everything from cars to real estate.",
+        "notability": "An iconic NZ tech company employing hundreds of developers, designers, and data scientists.",
+        "evidence": "Careers page consistently lists a wide variety of tech roles in Auckland, Wellington, and Christchurch.",
+        "link": "https://www.trademe.co.nz/c/community/careers-at-trade-me",
+        "techStack": [
+            ".NET",
+            "Vue.js",
+            "SQL Server",
+            "Azure"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "The Warehouse Group",
+        "category": "Retail & E-Commerce",
+        "subSector": "Retail",
+        "status": "hiring",
+        "description": "NZ's largest retail group, including The Warehouse, Noel Leeming, and Warehouse Stationery.",
+        "notability": "Massive focus on e-commerce, data analytics, and supply chain technology.",
+        "evidence": "Actively hiring for their 'TWG Tech' division, with roles in engineering, data, and digital.",
+        "link": "https://www.twgcareers.co.nz/nz/en/search-results",
+        "techStack": [
+            "GCP",
+            "React",
+            "Java",
+            "SAP"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Foodstuffs",
+        "category": "Retail & E-Commerce",
+        "subSector": "Grocery",
+        "status": "",
+        "description": "The co-operative behind New World, PAK'nSAVE, and Four Square supermarkets.",
+        "notability": "Manages one of the country's most complex supply chains and retail networks.",
+        "evidence": "Employs a large IT team to manage logistics, data, online shopping, and in-store technology.",
+        "link": "https://foodstuffs.careers/about-us.php",
+        "techStack": [
+            "SAP",
+            ".NET",
+            "SQL Server",
+            "Azure"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Air New Zealand",
+        "category": "Travel, Transport & Logistics",
+        "subSector": "Airline",
+        "status": "hiring",
+        "description": "New Zealand's national airline and a globally recognized brand.",
+        "notability": "Employs a large, world-class digital team for its booking engines, mobile app, and operational systems.",
+        "evidence": "Well-regarded digital graduate program and consistent hiring for senior tech roles.",
+        "link": "https://careers.airnewzealand.co.nz/",
+        "techStack": [
+            "Java",
+            "React",
+            "AWS",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Mainfreight",
+        "category": "Travel, Transport & Logistics",
+        "subSector": "Logistics",
+        "status": "",
+        "description": "A global logistics and freight company founded in New Zealand.",
+        "notability": "Technology is a key competitive advantage, with sophisticated global tracking and management systems.",
+        "evidence": "Hires IT specialists and developers to build and maintain its critical in-house systems.",
+        "link": "https://www.mainfreight.com/new-zealand/en-nz/careers-new-zealand",
+        "techStack": [
+            ".NET",
+            "SQL Server",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Inland Revenue (IRD)",
+        "category": "Government & Public Sector",
+        "subSector": "Government",
+        "status": "hiring",
+        "description": "The New Zealand government's tax collection agency.",
+        "notability": "Has undergone one of NZ's largest-ever digital transformations, modernizing its entire system.",
+        "evidence": "A major employer of IT professionals, particularly with enterprise-level skills.",
+        "link": "https://www.careers.ird.govt.nz/",
+        "techStack": [
+            ".NET",
+            "Java",
+            "Angular",
+            "Oracle"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Fonterra",
+        "category": "Primary Industries & AgriTech",
+        "subSector": "Dairy",
+        "status": "",
+        "description": "New Zealand's largest company and a global dairy nutrition giant.",
+        "notability": "Massive technology footprint covering factory automation, global supply chain, R&D, and data science.",
+        "evidence": "Regularly hires for IT, data, and engineering roles across the country.",
+        "link": "https://www.fonterra.com/nz/en/careers.html",
+        "techStack": [
+            "SAP",
+            "Azure",
+            "Java",
+            ".NET"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "LIC (Livestock Improvement Corporation)",
+        "category": "Primary Industries & AgriTech",
+        "subSector": "AgriTech",
+        "status": "hiring",
+        "description": "A farmer-owned co-operative that provides genetic, data, and automation solutions.",
+        "notability": "A cornerstone of NZ's dairy industry, with a strong focus on data and technology.",
+        "evidence": "Hires for a range of tech roles, from software developers to data scientists, at its Hamilton HQ.",
+        "link": "https://careers.lic.co.nz/",
+        "techStack": [
+            "Java",
+            ".NET",
+            "Angular",
+            "SQL Server"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Gallagher",
+        "category": "Primary Industries & AgriTech",
+        "subSector": "AgriTech / Security",
+        "status": "hiring",
+        "description": "A global leader in animal management, security, and fuel systems.",
+        "notability": "A major NZ-based technology exporter with a large R&D team in Hamilton.",
+        "evidence": "Consistently hires for software, firmware, and electronics engineering roles.",
+        "link": "https://careers.gallagher.com/",
+        "techStack": [
+            "C++",
+            "C#",
+            ".NET",
+            "Angular",
+            "Embedded C"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Datacom",
+        "category": "Consulting & Professional Services",
+        "subSector": "IT Services",
+        "status": "layoffs_hiring",
+        "description": "New Zealand's largest IT services company, providing a wide range of digital solutions.",
+        "notability": "A major employer of tech talent across consulting, development, and managed services.",
+        "evidence": "Despite some restructuring, continues to hire for a wide range of technical and consulting roles.",
+        "link": "https://datacom.com/nz/en/careers",
+        "techStack": [
+            "Azure",
+            "AWS",
+            "Microsoft 365",
+            "Java",
+            ".NET"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Deloitte",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Consulting",
+        "status": "hiring",
+        "description": "A 'Big Four' professional services firm with a large and growing digital and technology consulting practice.",
+        "notability": "Works on major digital transformation projects for top NZ companies and government agencies.",
+        "evidence": "Actively recruits for consultants, developers, and data specialists in its Deloitte Digital arm.",
+        "link": "https://www.deloitte.com/nz/en/careers.html",
+        "techStack": [
+            "Salesforce",
+            "Mulesoft",
+            "AWS",
+            "React",
+            "SAP"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Datamine",
+        "category": "Consulting & Professional Services",
+        "subSector": "Data & Analytics",
+        "status": "hiring",
+        "description": "A leading data and analytics consultancy that helps businesses use data to make better decisions.",
+        "notability": "Well-regarded in the industry for its expertise in data science, AI, and business intelligence.",
+        "evidence": "Actively recruits data scientists, data engineers, and analysts.",
+        "link": "https://www.datamine.com/being-a-dataminer/join-us",
+        "techStack": [
+            "Python",
+            "R",
+            "SQL",
+            "Azure",
+            "Power BI"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "PwC",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Consulting",
+        "status": "hiring",
+        "description": "A 'Big Four' firm with a significant technology consulting practice.",
+        "notability": "Advises major NZ organisations on technology strategy, cybersecurity, and digital transformation.",
+        "evidence": "Hires for a wide range of tech consulting roles, including graduate positions.",
+        "link": "https://www.pwc.co.nz/careers/experienced-careers-at-pwc/job-search/results.html?wdcountry=NZL&wdjobsite=Global_Experienced_Careers",
+        "techStack": [
+            "Salesforce",
+            "SAP",
+            "Workday",
+            "Azure",
+            "AWS"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Fisher & Paykel Healthcare",
+        "category": "Healthcare & Life Sciences",
+        "subSector": "HealthTech",
+        "status": "",
+        "description": "A leading designer and manufacturer of products for respiratory care and sleep apnea treatment.",
+        "notability": "One of NZ's largest and most successful tech exporters, listed on the NZX.",
+        "evidence": "Consistently hires engineers, particularly in embedded systems and software.",
+        "link": "https://careers.fphcare.com/",
+        "techStack": [
+            "C++",
+            "Embedded C",
+            "Python",
+            "Altium"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Orion Health",
+        "category": "Healthcare & Life Sciences",
+        "subSector": "HealthTech",
+        "status": "",
+        "description": "Develops a digital healthcare platform for patient data consolidation and care coordination.",
+        "notability": "A long-standing, globally recognized NZ HealthTech company.",
+        "evidence": "Continues to hire for software development roles following its acquisition by HEALWELL AI.",
+        "link": "https://orionhealth.com/us/careers/",
+        "techStack": [
+            "Java",
+            "JavaScript",
+            "Angular",
+            "Cassandra",
+            "Kafka"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Ryman Healthcare",
+        "category": "Healthcare & Life Sciences",
+        "subSector": "Aged Care",
+        "status": "",
+        "description": "New Zealand's largest retirement village operator, listed on the NZX.",
+        "notability": "Invests heavily in technology, including its own custom-built care app (myRyman) and business systems.",
+        "evidence": "Hires business analysts, software developers, and IT support staff for its Christchurch-based tech team.",
+        "link": "https://www.rymanhealthcare.co.nz/careers",
+        "techStack": [
+            "C#",
+            ".NET",
+            "React Native",
+            "SQL Server"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Volpara Health",
+        "category": "Healthcare & Life Sciences",
+        "subSector": "HealthTech",
+        "status": "",
+        "description": "Provides AI-powered software for the early detection of breast cancer.",
+        "notability": "A world-leader in its niche, using AI and data to improve healthcare outcomes. Listed on the ASX.",
+        "evidence": "Hires software engineers, data scientists, and researchers in its Wellington office.",
+        "link": "https://www.volparahealth.com/careers/working-with-volpara/",
+        "techStack": [
+            "C#",
+            ".NET",
+            "Azure",
+            "Python",
+            "React"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Wētā FX (formerly Weta Digital)",
+        "category": "Creative Tech & Gaming",
+        "subSector": "Visual Effects",
+        "status": "",
+        "description": "A world-leading visual effects company famous for its work on films like Avatar and The Lord of the Rings.",
+        "notability": "A global icon of the creative tech industry, employing hundreds of software developers and technical directors.",
+        "evidence": "Constantly seeking R&D programmers, pipeline TDs, and software engineers to build their groundbreaking tools.",
+        "link": "https://careers.wetafx.co.nz/",
+        "techStack": [
+            "C++",
+            "Python",
+            "Katana",
+            "Houdini",
+            "Unreal Engine"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Grinding Gear Games",
+        "category": "Creative Tech & Gaming",
+        "subSector": "Game Development",
+        "status": "hiring",
+        "description": "The independent game development studio behind the critically acclaimed action RPG, Path of Exile.",
+        "notability": "One of the most successful game studios in the Southern Hemisphere.",
+        "evidence": "Actively hiring programmers and developers for Path of Exile 2.",
+        "link": "https://www.grindinggear.com/jobs?page=careers",
+        "techStack": [
+            "C++",
+            "Lua",
+            "Proprietary Engine"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "PikPok",
+        "category": "Creative Tech & Gaming",
+        "subSector": "Game Development",
+        "status": "hiring",
+        "description": "A leading mobile game publisher and developer based in Wellington.",
+        "notability": "Known for successful titles like 'Into the Dead' and 'Rival Stars Horse Racing'.",
+        "evidence": "Regularly hires for game programmer, artist, and designer roles.",
+        "link": "https://www.pikpok.com/careers/",
+        "techStack": [
+            "Unity",
+            "C#",
+            "C++"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Serato",
+        "category": "Creative Tech & Gaming",
+        "subSector": "Creative Tech / SaaS",
+        "status": "hiring",
+        "description": "A world-leading developer of audio software for DJs and music producers.",
+        "notability": "A globally recognized brand in the music technology industry, recently acquired by Tiny.",
+        "evidence": "The careers page lists several open roles, including a graduate program.",
+        "link": "https://serato.com/careers",
+        "techStack": [
+            "C++",
+            "JavaScript",
+            "React",
+            "JUCE"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Spark",
         "category": "NZX-Listed & Large Enterprises",
-        "subSector": "Telecommunications / IT Services",
+        "subSector": "Telecommunications",
         "status": "layoffs",
         "description": "A leading New Zealand telecommunications and digital services provider.",
-        "notability": "One of NZ's largest listed companies by market cap. Ranked as a top graduate employer.",
-        "evidence": "Announced restructuring and job cuts in March 2024 due to a 'tough operating environment'.",
+        "notability": "One of NZ's largest listed companies, with a significant technology division (Spark Tech).",
+        "evidence": "Announced restructuring in March 2024, but still hires for specific strategic tech roles.",
         "link": "https://www.spark.co.nz/online/about/people-careers",
         "techStack": [
             "Java",
@@ -106,7 +621,58 @@
         ]
     },
     {
-        "id": 7,
+        "id": 37,
+        "name": "One NZ (formerly Vodafone)",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Telecommunications",
+        "status": "",
+        "description": "A major telecommunications company providing mobile, broadband, and digital services.",
+        "notability": "Employs a large number of network engineers, software developers, and IT specialists.",
+        "evidence": "Regularly advertises for technology roles on its careers page.",
+        "link": "https://one.nz/careers/",
+        "techStack": [
+            "Java",
+            ".NET",
+            "React",
+            "AWS"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Fletcher Building",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Construction",
+        "status": "",
+        "description": "A major Australasian construction and building materials company.",
+        "notability": "Large corporate IT department managing enterprise systems, logistics, and digital transformation.",
+        "evidence": "Hires for roles in enterprise systems (SAP), data analytics, and IT project management.",
+        "link": "https://fbu.com/careers",
+        "techStack": [
+            "SAP",
+            "Salesforce",
+            "Azure",
+            ".NET"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Gentrack",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "SaaS / Utilities",
+        "status": "hiring",
+        "description": "Provides essential software for energy and water utilities and airports.",
+        "notability": "A successful NZX-listed tech exporter with a global client base.",
+        "evidence": "Careers page shows active hiring for developers and technical specialists.",
+        "link": "https://gentrack.com/careers/",
+        "techStack": [
+            "Salesforce",
+            "AWS",
+            "Java",
+            "Vue.js"
+        ]
+    },
+    {
+        "id": 40,
         "name": "Trimble",
         "category": "Global Tech Giants (NZ Presence)",
         "subSector": "Hardware / SaaS",
@@ -124,43 +690,60 @@
         ]
     },
     {
-        "id": 8,
-        "name": "Vista Group",
-        "category": "NZX-Listed & Large Enterprises",
-        "subSector": "Creative Tech / SaaS",
+        "id": 41,
+        "name": "Microsoft",
+        "category": "Global Tech Giants (NZ Presence)",
+        "subSector": "Cloud / Software",
         "status": "layoffs",
-        "description": "Provides comprehensive software solutions for the global film industry.",
-        "notability": "A leading global player in its niche, listed on the NZX.",
-        "evidence": "Announced a restructuring in July 2023 resulting in laying off 6-8% of its global workforce.",
-        "link": "https://vistaglobal.com/careers/corporate/",
+        "description": "Global software and cloud services provider.",
+        "notability": "Ranked as a top graduate employer.",
+        "evidence": "Reports of significant NZ layoffs in 2023.",
+        "link": "https://careers.microsoft.com/v2/global/en/home.html",
         "techStack": [
             "C#",
             ".NET",
-            "Angular",
             "Azure",
-            "SQL Server"
+            "React",
+            "TypeScript"
         ]
     },
     {
-        "id": 9,
-        "name": "Orion Health",
-        "category": "Specialized Sector Leaders",
-        "subSector": "HealthTech",
+        "id": 42,
+        "name": "Amazon",
+        "category": "Global Tech Giants (NZ Presence)",
+        "subSector": "Cloud / E-commerce",
         "status": "",
-        "description": "Develops a digital healthcare platform for patient data consolidation and care coordination.",
-        "notability": "A long-standing, globally recognized NZ HealthTech company. Recently acquired by HEALWELL AI.",
-        "evidence": "The recent acquisition was stated to have no immediate staff impacts. The careers page shows open roles.",
-        "link": "https://orionhealth.com/us/careers/",
+        "description": "E-commerce and cloud computing giant (AWS).",
+        "notability": "Ranked as a top graduate employer in NZ.",
+        "evidence": "Global layoffs occurred, but specific large-scale NZ impact less clear. Hiring continues for specific roles.",
+        "link": "https://www.amazon.jobs/en-gb",
         "techStack": [
             "Java",
-            "JavaScript",
-            "Angular",
-            "Cassandra",
-            "Kafka"
+            "Python",
+            "React",
+            "AWS"
         ]
     },
     {
-        "id": 10,
+        "id": 43,
+        "name": "Google",
+        "category": "Global Tech Giants (NZ Presence)",
+        "subSector": "Cloud / Advertising / Software",
+        "status": "",
+        "description": "Global technology leader in search, cloud, and advertising.",
+        "notability": "Operates a sales and cloud engineering presence in NZ. Ranked as a top graduate employer.",
+        "evidence": "Global layoffs occurred, but NZ office primarily hires for sales, marketing, and cloud consulting roles.",
+        "link": "https://www.amazon.jobs/en-gb",
+        "techStack": [
+            "GCP",
+            "Go",
+            "Java",
+            "Python",
+            "TypeScript"
+        ]
+    },
+    {
+        "id": 44,
         "name": "Serko",
         "category": "NZX-Listed & Large Enterprises",
         "subSector": "FinTech / SaaS",
@@ -177,24 +760,7 @@
         ]
     },
     {
-        "id": 11,
-        "name": "Gentrack Group",
-        "category": "NZX-Listed & Large Enterprises",
-        "subSector": "SaaS / Utilities",
-        "status": "",
-        "description": "Provides essential software for energy and water utilities and airports.",
-        "notability": "Top-ranking NZ tech company by revenue. Listed on NZX and ASX.",
-        "evidence": "The company appears to have stabilized after past challenges. No recent layoff news found.",
-        "link": "https://gentrack.com/careers/",
-        "techStack": [
-            "Salesforce",
-            "AWS",
-            "Java",
-            "Vue.js"
-        ]
-    },
-    {
-        "id": 12,
+        "id": 45,
         "name": "EROAD",
         "category": "NZX-Listed & Large Enterprises",
         "subSector": "SaaS / Transportation",
@@ -211,60 +777,9 @@
         ]
     },
     {
-        "id": 13,
-        "name": "Pushpay",
-        "category": "High-Growth Scale-Ups & Unicorns",
-        "subSector": "FinTech / SaaS",
-        "status": "hiring",
-        "description": "Provides a donor management system and church management software, primarily for the faith sector.",
-        "notability": "A significant NZ-founded tech company, though now heavily US-focused.",
-        "evidence": "The careers page lists an open role in Auckland for a Senior Site Reliability Engineer.",
-        "link": "https://job-boards.greenhouse.io/pushpay",
-        "techStack": [
-            "C#",
-            ".NET",
-            "React Native",
-            "Azure"
-        ]
-    },
-    {
-        "id": 14,
-        "name": "Cin7",
-        "category": "High-Growth Scale-Ups & Unicorns",
-        "subSector": "SaaS / Retail",
-        "status": "layoffs",
-        "description": "Provides a cloud-based inventory management platform for retailers and wholesalers.",
-        "notability": "Winner of the PwC Hi-Tech Company of the Year 2023.",
-        "evidence": "Announced layoffs affecting 15% of its workforce in April 2023.",
-        "link": "https://www.cin7.com/careers/",
-        "techStack": [
-            "PHP",
-            "React",
-            "AWS",
-            "MySQL"
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Gallagher NZ",
-        "category": "Specialized Sector Leaders",
-        "subSector": "AgriTech / Hardware",
-        "status": "",
-        "description": "A global company specializing in animal management, security, and fuel systems.",
-        "notability": "A major, long-standing NZ company with a global presence.",
-        "evidence": "No specific layoff news for its NZ tech divisions was found.",
-        "link": "https://jobs.ajg.co.nz/gallagher-nz/",
-        "techStack": [
-            "C++",
-            "Java",
-            "Embedded C",
-            "Angular"
-        ]
-    },
-    {
-        "id": 16,
+        "id": 46,
         "name": "Rakon",
-        "category": "Specialized Sector Leaders",
+        "category": "NZX-Listed & Large Enterprises",
         "subSector": "Deep Tech / Hardware",
         "status": "layoffs",
         "description": "Designs and manufactures advanced frequency control and timing solutions.",
@@ -279,122 +794,279 @@
         ]
     },
     {
-        "id": 17,
-        "name": "Serato",
-        "category": "Specialized Sector Leaders",
-        "subSector": "Creative Tech / SaaS",
-        "status": "hiring",
-        "description": "A world-leading developer of audio software for DJs and music producers.",
-        "notability": "A globally recognized brand in the music technology industry, recently acquired by Tiny.",
-        "evidence": "The careers page lists several open roles, including a graduate program.",
-        "link": "https://serato.com/careers",
-        "techStack": [
-            "C++",
-            "JavaScript",
-            "React",
-            "JUCE"
-        ]
-    },
-    {
-        "id": 18,
-        "name": "LawVu",
-        "category": "High-Growth Scale-Ups & Unicorns",
-        "subSector": "SaaS / LegalTech",
-        "status": "hiring",
-        "description": "Provides a legal workspace platform for in-house corporate legal teams.",
-        "notability": "A rapidly growing scale-up in the legal tech space.",
-        "evidence": "The careers page shows an open role for a Technical Lead.",
-        "link": "https://lawvu.com/careers/",
-        "techStack": [
-            "C#",
-            ".NET",
-            "Vue.js",
-            "Azure"
-        ]
-    },
-    {
-        "id": 19,
-        "name": "Starboard Maritime Intelligence",
-        "category": "Emerging Innovators & Startups",
-        "subSector": "SaaS / Deep Tech",
-        "status": "",
-        "description": "Provides AI-powered maritime domain awareness software for government and security clients.",
-        "notability": "Winner of both Hi-Tech Startup of the Year and Most Innovative Software Solution in 2024.",
-        "evidence": "As a recent award-winning startup, it is likely in a growth phase.",
-        "link": "https://starboard.space/",
-        "techStack": [
-            "Python",
-            "React",
-            "PostGIS",
-            "AWS"
-        ]
-    },
-    {
-        "id": 20,
-        "name": "Tracksuit",
-        "category": "Emerging Innovators & Startups",
-        "subSector": "SaaS / MarTech",
-        "status": "",
-        "description": "A brand tracking and marketing analytics platform.",
-        "notability": "Winner of the Hi-Tech Emerging Company of the Year 2024.",
-        "evidence": "As a recent award-winning emerging company, it is likely focused on growth.",
-        "link": "https://www.tracksuit.com/careers",
-        "techStack": [
-            "Ruby on Rails",
-            "React",
-            "PostgreSQL"
-        ]
-    },
-    {
-        "id": 21,
-        "name": "Microsoft",
+        "id": 47,
+        "name": "Meta",
         "category": "Global Tech Giants (NZ Presence)",
-        "subSector": "Cloud / Software",
-        "status": "layoffs",
-        "description": "Global software and cloud services provider.",
-        "notability": "Ranked as a top graduate employer.",
-        "evidence": "Reports of significant NZ layoffs in 2023.",
-        "link": "https://careers.microsoft.com/v2/global/en/search.html?q=new%20zealand",
+        "subSector": "Social Media",
+        "status": "",
+        "description": "The parent company of Facebook, Instagram, and WhatsApp.",
+        "notability": "Maintains a presence in New Zealand, though primarily for policy, sales, and marketing.",
+        "evidence": "Global layoffs have been significant, but there is no major engineering hub in NZ. Local roles are non-technical.",
+        "link": "https://www.metacareers.com/jobs",
         "techStack": [
-            "C#",
+            "React",
+            "PHP (Hack)",
+            "Python",
+            "Java"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Accenture",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Consulting",
+        "status": "hiring",
+        "description": "A global professional services company with leading capabilities in digital, cloud and security.",
+        "notability": "Won the contract to build the National Data Platform for Te Whatu Ora Health New Zealand.",
+        "evidence": "Actively hiring for technology consulting, engineering, and data roles in NZ.",
+        "link": "https://www.accenture.com/nz-en/careers",
+        "techStack": [
+            "AWS",
+            "Azure",
+            "GCP",
+            "SAP",
+            "Salesforce"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "KPMG",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Consulting",
+        "status": "hiring",
+        "description": "A 'Big Four' firm providing audit, tax, and advisory services, with a strong technology and digital practice.",
+        "notability": "Key advisor to government and enterprise on technology implementation and risk.",
+        "evidence": "Hires for roles in 'Digital Delta' team, covering data, AI, cloud, and software engineering.",
+        "link": "https://kpmg.com/nz/en/home/careers.html",
+        "techStack": [
+            "Microsoft 365",
+            "Azure",
+            "Power BI",
+            "ServiceNow"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Ministry of Social Development (MSD)",
+        "category": "Government & Public Sector",
+        "subSector": "Central Government",
+        "status": "hiring",
+        "description": "One of NZ's largest government departments, responsible for social services and financial assistance.",
+        "notability": "Operates one of the largest in-house IT groups in the public sector, managing critical national systems.",
+        "evidence": "Regularly hires for a wide range of IT roles, from service desk to enterprise architects.",
+        "link": "https://jobs.msd.govt.nz/go/Information-Technology-Jobs/2661700/",
+        "techStack": [
+            "Microsoft 365",
             ".NET",
             "Azure",
-            "React",
-            "TypeScript"
+            "Java"
         ]
     },
     {
-        "id": 22,
-        "name": "Amazon",
-        "category": "Global Tech Giants (NZ Presence)",
-        "subSector": "Cloud / E-commerce",
-        "status": "",
-        "description": "E-commerce and cloud computing giant (AWS).",
-        "notability": "Ranked as a top graduate employer in NZ.",
-        "evidence": "Global layoffs occurred, but specific large-scale NZ impact less clear. Hiring continues for specific roles.",
-        "link": "https://www.amazon.jobs/en/locations/auckland-new-zealand",
+        "id": 51,
+        "name": "MBIE",
+        "category": "Government & Public Sector",
+        "subSector": "Central Government",
+        "status": "hiring",
+        "description": "The Ministry of Business, Innovation and Employment is a large 'super-ministry' with a diverse work programme.",
+        "notability": "Manages a wide array of digital platforms and data systems for immigration, business, and science.",
+        "evidence": "Careers page shows a constant need for digital, data, and technology specialists.",
+        "link": "https://jobs.mbie.govt.nz/go/ICT-Jobs/4732910/",
+        "techStack": [
+            "Azure",
+            ".NET",
+            "React",
+            "SQL"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Te Whatu Ora (Health NZ)",
+        "category": "Government & Public Sector",
+        "subSector": "Healthcare",
+        "status": "hiring",
+        "description": "The national entity responsible for all public health services in New Zealand.",
+        "notability": "Manages a massive and complex technology estate, currently undergoing major consolidation and transformation.",
+        "evidence": "Actively hiring for its Data and Digital directorate to build national health information platforms.",
+        "link": "https://jobs.tewhatuora.govt.nz/jobtools/jncustomsearch.searchResults",
+        "techStack": [
+            "FHIR",
+            ".NET",
+            "Azure",
+            "SQL Server",
+            "Power BI"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Waka Kotahi (NZTA)",
+        "category": "Government & Public Sector",
+        "subSector": "Transport",
+        "status": "hiring",
+        "description": "The NZ Transport Agency, responsible for land transport regulation, driver licensing, and infrastructure projects.",
+        "notability": "Manages critical national registers and customer-facing digital services like the NZTA app.",
+        "evidence": "Hires for roles in IT, digital product management, and data analytics.",
+        "link": "https://nzta.govt.nz/careers/",
         "techStack": [
             "Java",
-            "Python",
-            "React",
-            "AWS"
+            ".NET",
+            "Azure",
+            "Salesforce"
         ]
     },
     {
-        "id": 23,
-        "name": "Sharesies",
-        "category": "Specialized Sector Leaders",
-        "subSector": "FinTech / SaaS",
-        "status": "",
-        "description": "An investment platform designed to make investing accessible to everyone.",
-        "notability": "Featured on the Matchstiq Top 50 list of best tech companies to work for.",
-        "evidence": "Underwent restructuring in 2023 but appears stable now.",
-        "link": "https://www.sharesies.nz/jobs",
+        "id": 54,
+        "name": "Kiwibank",
+        "category": "Banking & Financial Services",
+        "subSector": "Banking",
+        "status": "hiring",
+        "description": "New Zealand's largest NZ-owned bank, focused on providing services for Kiwis.",
+        "notability": "A state-owned enterprise known for being a challenger to the Australian-owned banks.",
+        "evidence": "Actively hiring for technology roles like Senior Engineers and Platform Engineers.",
+        "link": "https://kiwibankpeople.csod.com/ux/ats/careersite/1/home?c=kiwibankpeople",
         "techStack": [
-            "Ruby on Rails",
+            ".NET",
             "React",
-            "PostgreSQL",
-            "Heroku"
+            "Azure",
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "EY",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Consulting",
+        "status": "hiring",
+        "description": "A global leader in assurance, tax, transaction and advisory services, with a strong focus on technology consulting.",
+        "notability": "One of the 'Big Four' professional services firms, heavily involved in technology transformation for NZ's largest companies.",
+        "evidence": "Actively hires for roles in data & analytics, technology consulting, and cybersecurity.",
+        "link": "https://careers.ey.com/ey/search/?createNewAlert=false&q=&locationsearch=new+zealand&optionsFacetsDD_country=NZ&optionsFacetsDD_customfield1=",
+        "techStack": [
+            "Azure",
+            "SAP",
+            "Power BI",
+            "ServiceNow"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Vector",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Utilities / Energy",
+        "status": "hiring",
+        "description": "New Zealand's largest distributor of electricity and gas, owning and operating networks across the country.",
+        "notability": "A leader in smart metering and energy data solutions, investing heavily in future energy technology.",
+        "evidence": "Careers page shows roles for data scientists, solution architects, and digital specialists.",
+        "link": "https://vector.co.nz/careers",
+        "techStack": [
+            "AWS",
+            "Azure",
+            "IoT",
+            "Python",
+            "SQL"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Chorus",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Telecommunications",
+        "status": "normal",
+        "description": "Owns and operates the majority of New Zealand's fixed-line telecommunications infrastructure, including the fibre network.",
+        "notability": "A critical infrastructure provider, central to NZ's digital economy.",
+        "evidence": "Hires for specialised network engineering, data, and IT systems roles.",
+        "link": "https://www.chorus.co.nz/careers",
+        "techStack": [
+            "Python",
+            "JavaScript",
+            "GIS",
+            "SQL"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Auckland International Airport",
+        "category": "Travel, Transport & Logistics",
+        "subSector": "Airport",
+        "status": "hiring",
+        "description": "New Zealand's largest and busiest airport, serving as a major hub for international travel.",
+        "notability": "Manages complex operational technology, including flight information systems, biometrics, and data analytics.",
+        "evidence": "Hires for technology roles in infrastructure, data, and digital solutions.",
+        "link": "https://careers.aucklandairport.co.nz/",
+        "techStack": [
+            "Azure",
+            "Power BI",
+            ".NET",
+            "SQL Server"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "SkyCity Entertainment Group",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Entertainment / Hospitality",
+        "status": "hiring",
+        "description": "A leading entertainment and gaming company with casinos, hotels, and restaurants across Australasia.",
+        "notability": "Operates complex digital, surveillance, and customer relationship management (CRM) systems.",
+        "evidence": "Careers page lists roles for IT technicians, systems engineers, and digital marketing specialists.",
+        "link": "https://www.skycitycareers.com/home",
+        "techStack": [
+            "Salesforce",
+            ".NET",
+            "SQL Server",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "AgResearch",
+        "category": "Government & Public Sector",
+        "subSector": "Crown Research Institute",
+        "status": "hiring",
+        "description": "A Crown Research Institute focused on delivering science and innovation to the pastoral agriculture sector.",
+        "notability": "A key driver of NZ's AgriTech innovation, with a large team of scientists and data specialists.",
+        "evidence": "Hires for roles in bioinformatics, computational biology, and data science.",
+        "link": "https://www.agresearch.co.nz/careers/",
+        "techStack": [
+            "Python",
+            "R",
+            "Linux",
+            "Bioinformatics"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "NIWA",
+        "category": "Government & Public Sector",
+        "subSector": "Crown Research Institute",
+        "status": "hiring",
+        "description": "The National Institute of Water and Atmospheric Research, a Crown Research Institute focused on climate and environmental science.",
+        "notability": "Manages some of NZ's most powerful supercomputers and complex environmental datasets.",
+        "evidence": "Hires for scientific programmers, data scientists, and high-performance computing specialists.",
+        "link": "https://niwa.co.nz/about-niwa/careers-niwa",
+        "techStack": [
+            "Python",
+            "R",
+            "Fortran",
+            "HPC"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Hnry",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "FinTech / SaaS",
+        "status": "hiring",
+        "description": "An award-winning service for sole traders that automatically calculates and pays taxes, ensuring they're always compliant.",
+        "notability": "A well-known FinTech and a Deloitte Fast 50 winner, recognized for its rapid growth in the contractor and freelancer space.",
+        "evidence": "Actively hiring for multiple engineering and product roles on their careers page.",
+        "link": "https://hnry.notion.site/Careers-at-Hnry-845b2d0c7bca4affbc2b8be9c0c4068b",
+        "techStack": [
+            "Python",
+            "React",
+            "AWS",
+            "PostgreSQL"
         ]
     }
 ]
