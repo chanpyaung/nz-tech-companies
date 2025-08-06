@@ -15,6 +15,9 @@ function CompanyCard({ company, onSelect }) {
                 </div>
             </div>
             <div className="mt-auto pt-4 border-t border-gray-100">
+                {company.location && (
+                    <p className="text-sm text-gray-600 mb-4 line-clamp-2">{company.location}</p>
+                )}
                 <span className={`text-sm font-medium px-3 py-1 rounded-full ${statusInfo.bg} ${statusInfo.color}`}>{statusInfo.icon} {statusInfo.text}</span>
             </div>
         </div>

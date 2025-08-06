@@ -15,7 +15,8 @@
             "React",
             "AWS",
             "SQL Server"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 2,
@@ -32,7 +33,8 @@
             "Python",
             "FPGA",
             "React"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 3,
@@ -50,7 +52,8 @@
             "AWS",
             "PostgreSQL",
             "Terraform"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 4,
@@ -67,7 +70,8 @@
             ".NET",
             "React Native",
             "Azure"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 5,
@@ -84,7 +88,8 @@
             "React",
             "AWS",
             "MySQL"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 6,
@@ -101,7 +106,8 @@
             ".NET",
             "Vue.js",
             "Azure"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 7,
@@ -118,7 +124,8 @@
             "React",
             "PostGIS",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 8,
@@ -134,7 +141,8 @@
             "Ruby on Rails",
             "React",
             "PostgreSQL"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 9,
@@ -152,7 +160,8 @@
             "Go",
             "AWS",
             "Terraform"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 10,
@@ -170,7 +179,8 @@
             "Azure",
             "Swift",
             "Kotlin"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 11,
@@ -187,7 +197,8 @@
             "JavaScript",
             "AWS",
             "Salesforce"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 12,
@@ -204,7 +215,8 @@
             "Java",
             "Azure",
             "React"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 13,
@@ -220,7 +232,8 @@
             ".NET",
             "React",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 14,
@@ -237,7 +250,8 @@
             "React",
             "PostgreSQL",
             "Heroku"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 15,
@@ -254,7 +268,8 @@
             "Vue.js",
             "SQL Server",
             "Azure"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 16,
@@ -271,7 +286,8 @@
             "React",
             "Java",
             "SAP"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 17,
@@ -288,7 +304,8 @@
             ".NET",
             "SQL Server",
             "Azure"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 18,
@@ -306,7 +323,8 @@
             "AWS",
             "iOS",
             "Android"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 19,
@@ -322,7 +340,8 @@
             ".NET",
             "SQL Server",
             "JavaScript"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 20,
@@ -339,7 +358,8 @@
             "Java",
             "Angular",
             "Oracle"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 21,
@@ -356,7 +376,8 @@
             "Azure",
             "Java",
             ".NET"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 22,
@@ -373,7 +394,8 @@
             ".NET",
             "Angular",
             "SQL Server"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 23,
@@ -391,7 +413,8 @@
             ".NET",
             "Angular",
             "Embedded C"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 24,
@@ -409,7 +432,8 @@
             "Microsoft 365",
             "Java",
             ".NET"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 25,
@@ -427,7 +451,8 @@
             "AWS",
             "React",
             "SAP"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 26,
@@ -445,7 +470,8 @@
             "SQL",
             "Azure",
             "Power BI"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 27,
@@ -463,7 +489,8 @@
             "Workday",
             "Azure",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 28,
@@ -480,7 +507,8 @@
             "Embedded C",
             "Python",
             "Altium"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 29,
@@ -498,7 +526,8 @@
             "Angular",
             "Cassandra",
             "Kafka"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 30,
@@ -515,7 +544,8 @@
             ".NET",
             "React Native",
             "SQL Server"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 31,
@@ -533,7 +563,8 @@
             "Azure",
             "Python",
             "React"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 32,
@@ -551,7 +582,8 @@
             "Katana",
             "Houdini",
             "Unreal Engine"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 33,
@@ -567,7 +599,8 @@
             "C++",
             "Lua",
             "Proprietary Engine"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 34,
@@ -583,7 +616,8 @@
             "Unity",
             "C#",
             "C++"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 35,
@@ -600,7 +634,8 @@
             "JavaScript",
             "React",
             "JUCE"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 36,
@@ -618,7 +653,8 @@
             "AWS",
             "GCP",
             "Salesforce"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 37,
@@ -635,7 +671,8 @@
             ".NET",
             "React",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 38,
@@ -652,7 +689,8 @@
             "Salesforce",
             "Azure",
             ".NET"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 39,
@@ -669,7 +707,8 @@
             "AWS",
             "Java",
             "Vue.js"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 40,
@@ -687,7 +726,8 @@
             ".NET",
             "Angular",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 41,
@@ -705,7 +745,8 @@
             "Azure",
             "React",
             "TypeScript"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 42,
@@ -722,7 +763,8 @@
             "Python",
             "React",
             "AWS"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 43,
@@ -740,7 +782,8 @@
             "Java",
             "Python",
             "TypeScript"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 44,
@@ -757,7 +800,8 @@
             "React",
             "AWS",
             "Node.js"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 45,
@@ -774,7 +818,8 @@
             "Angular",
             "AWS",
             "IoT"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 46,
@@ -791,7 +836,8 @@
             "VHDL",
             "Python",
             "LabVIEW"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 47,
@@ -808,7 +854,8 @@
             "PHP (Hack)",
             "Python",
             "Java"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 48,
@@ -826,7 +873,8 @@
             "GCP",
             "SAP",
             "Salesforce"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 49,
@@ -843,7 +891,8 @@
             "Azure",
             "Power BI",
             "ServiceNow"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 50,
@@ -860,7 +909,8 @@
             ".NET",
             "Azure",
             "Java"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 51,
@@ -877,7 +927,8 @@
             ".NET",
             "React",
             "SQL"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 52,
@@ -895,7 +946,8 @@
             "Azure",
             "SQL Server",
             "Power BI"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 53,
@@ -912,7 +964,8 @@
             ".NET",
             "Azure",
             "Salesforce"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 54,
@@ -930,7 +983,8 @@
             "Azure",
             "Docker",
             "Kubernetes"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 55,
@@ -947,7 +1001,8 @@
             "SAP",
             "Power BI",
             "ServiceNow"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 56,
@@ -965,7 +1020,8 @@
             "IoT",
             "Python",
             "SQL"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 57,
@@ -982,7 +1038,8 @@
             "JavaScript",
             "GIS",
             "SQL"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 58,
@@ -999,7 +1056,8 @@
             "Power BI",
             ".NET",
             "SQL Server"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 59,
@@ -1016,7 +1074,8 @@
             ".NET",
             "SQL Server",
             "JavaScript"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 60,
@@ -1033,7 +1092,8 @@
             "R",
             "Linux",
             "Bioinformatics"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 61,
@@ -1050,7 +1110,8 @@
             "R",
             "Fortran",
             "HPC"
-        ]
+        ],
+        "location": ""
     },
     {
         "id": 62,
@@ -1067,6 +1128,7 @@
             "React",
             "AWS",
             "PostgreSQL"
-        ]
+        ],
+        "location": ""
     }
 ]
