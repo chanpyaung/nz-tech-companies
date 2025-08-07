@@ -6,6 +6,8 @@ import FilterControls from './components/company/FilterControls';
 import CompanyGrid from './components/company/CompanyGrid';
 import Footer from './components/footer/Footer';
 import CompanyModal from './components/company/CompanyModal';
+import References from './components/references/References';
+import { references } from './utils/dataUtils';
 Chart.register(ArcElement, Tooltip, Legend);
 
 function App() {
@@ -69,6 +71,7 @@ if (error) return <div className="flex items-center justify-center h-screen text
           <h2 className="text-3xl font-bold text-center mb-8">Company Explorer</h2>
           <FilterControls filters={filters} setFilters={setFilters} categories={categories} techStacks={techStacks} />
           <CompanyGrid companies={filteredCompanies} allCategories={categories} onSelectCompany={setSelectedCompany} />
+          <References references={references}/>
         </section>
       </main>
       <Footer/>

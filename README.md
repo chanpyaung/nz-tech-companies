@@ -1,12 +1,32 @@
-# React + Vite
+# New Zealand Tech Companines List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+List of notable tech companies in New Zealand. (List is being updated regularly on weekly basis, yet to add more companies)
 
-Currently, two official plugins are available:
+inspired from sg-tech-list repo [github.com/paradite/sg-tech-list](https://github.com/paradite/sg-tech-list)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vercel App: [https://https://nz-tech-companies.vercel.app/](https://nz-tech-companies.vercel.app/)
+built with Vite+React+Tailwind.
 
-## Expanding the ESLint configuration
+## Contribution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hoping anyone looking for job in New Zealand can contribute together.
+Take a look at the data format in `public/data.json` and append new companies below to add more.
+
+Example Data format:
+```json
+{
+        "id": 0,
+        "name": "company name",
+        "category": "size of company (startup/enterprise/NZX listed etc)",
+        "subSector": "Industry / What company do",
+        "status": "hiring/layoff/",
+        "description": "",
+        "notability": "",
+        "evidence": "any news relating to hiring/restructuring",
+        "link": "company carrer website",
+        "techStack": [],
+        "location": ""
+    }
+```
+
+## References
