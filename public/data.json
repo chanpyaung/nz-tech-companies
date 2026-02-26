@@ -1546,5 +1546,24 @@
         "location": "Wellington",
         "glassdoorRating": "5.0",
         "id": 83
+    },
+    {
+        "name": "Emerge",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / NeoBank",
+        "status": "hiring",
+        "description": "A challenger business bank and financial platform built specifically for New Zealand businesses.",
+        "notability": "One of the most prominent B2B neobanks emerging in New Zealand, offering fast business accounts and cards.",
+        "evidence": "Rapidly expanding their product offering and hiring engineering talent to build out core banking infrastructure.",
+        "link": "https://emerge.nz/careers",
+        "techStack": [
+            "React Native",
+            "Node.js",
+            "Typescript",
+            "AWS"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.9",
+        "id": 84
     }
 ]
