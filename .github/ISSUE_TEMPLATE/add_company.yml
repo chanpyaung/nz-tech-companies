@@ -1,0 +1,95 @@
+name: Add / Update a Company
+description: Suggest a new tech company or update an existing one in the directory.
+title: "[Company]: <Company Name>"
+labels: ["enhancement", "data"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to the NZ Tech Companies directory! Please fill out the form below. Once submitted, it will be reviewed and merged into the main data file.
+  - type: input
+    id: company_name
+    attributes:
+      label: Company Name
+      placeholder: e.g. Xero
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which broad category does this company belong to?
+      options:
+        - Emerging Innovators & Startups
+        - High-Growth Scale-Ups & Unicorns
+        - NZX-Listed & Large Enterprises
+        - Global Tech Giants (NZ Presence)
+        - Banking & Financial Services
+        - Retail & E-Commerce
+        - Travel, Transport & Logistics
+        - Government & Public Sector
+        - Primary Industries & AgriTech
+        - Consulting & Professional Services
+        - Healthcare & Life Sciences
+        - Creative Tech & Gaming
+        - Education & Academic
+    validations:
+      required: true
+  - type: input
+    id: subsector
+    attributes:
+      label: Sub-Sector
+      placeholder: e.g. FinTech / SaaS, Deep Tech, Local Government
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Hiring Status
+      options:
+        - hiring
+        - normal
+        - layoffs
+        - layoffs_hiring
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does the company do? (1-2 sentences)
+    validations:
+      required: true
+  - type: textarea
+    id: notability
+    attributes:
+      label: Notability
+      description: Why is this company notable in the NZ tech scene?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Careers Page Link
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: techstack
+    attributes:
+      label: Tech Stack
+      description: Comma separated list of core technologies.
+      placeholder: e.g. React, Node.js, AWS, Python
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location (HQ or Main Tech Hub)
+      placeholder: e.g. Auckland, Wellington, Remote
+  - type: input
+    id: glassdoor
+    attributes:
+      label: Glassdoor Rating (Optional)
+      placeholder: e.g. 4.5

@@ -1565,5 +1565,141 @@
         "location": "Auckland",
         "glassdoorRating": "4.9",
         "id": 84
+    },
+    {
+        "name": "University of Auckland",
+        "category": "Education & Academic",
+        "subSector": "University",
+        "status": "hiring",
+        "description": "New Zealand's largest university, employing a massive IT division to manage student systems, research infrastructure, and enterprise architecture.",
+        "notability": "Major employer for IT systems, cybersecurity, and data science supporting academic research.",
+        "evidence": "Consistent hiring across IT services and digital transformation projects.",
+        "link": "https://www.auckland.ac.nz/en/about-us/connect-with-us/working-at-the-university.html",
+        "techStack": [
+            "Java",
+            "React",
+            "AWS",
+            "Python",
+            "SQL Server"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.2",
+        "id": 85
+    },
+    {
+        "name": "Victoria University of Wellington",
+        "category": "Education & Academic",
+        "subSector": "University",
+        "status": "hiring",
+        "description": "A major university with a strong focus on digital services and academic research computing.",
+        "notability": "Significant in-house tech team managing cloud infrastructure, student portals, and enterprise integrations.",
+        "evidence": "Regular postings for network engineers, developers, and analysts.",
+        "link": "https://www.wgtn.ac.nz/about/careers",
+        "techStack": [
+            ".NET",
+            "Azure",
+            "JavaScript",
+            "Oracle"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "4.0",
+        "id": 86
+    },
+    {
+        "name": "University of Canterbury",
+        "category": "Education & Academic",
+        "subSector": "University",
+        "status": "hiring",
+        "description": "Leading academic institution with dedicated digital services and high-performance computing centers.",
+        "notability": "Strong engineering and computer science faculties, often collaborating with their internal IT teams.",
+        "evidence": "Hires for data engineering, cloud architecture, and software development.",
+        "link": "https://www.canterbury.ac.nz/about-uc/careers-at-uc",
+        "techStack": [
+            "Python",
+            "C#",
+            "AWS",
+            "Linux"
+        ],
+        "location": "Christchurch",
+        "glassdoorRating": "4.1",
+        "id": 87
+    },
+    {
+        "name": "New Zealand Police",
+        "category": "Government & Public Sector",
+        "subSector": "Law Enforcement",
+        "status": "hiring",
+        "description": "The national police force, operating highly secure and mission-critical digital intelligence and communication systems.",
+        "notability": "Manages mobility apps for frontline officers, complex data intelligence platforms, and high-security infrastructure.",
+        "evidence": "Continually hiring for software engineers, security analysts, and mobile developers.",
+        "link": "https://www.police.govt.nz/about-us/jobs",
+        "techStack": [
+            "Java",
+            "iOS",
+            "Android",
+            "Azure",
+            "Cybersecurity"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "3.9",
+        "id": 88
+    },
+    {
+        "name": "Ministry of Justice",
+        "category": "Government & Public Sector",
+        "subSector": "Central Government",
+        "status": "hiring",
+        "description": "Administers the court system and legal aid, running massive national databases and digital court systems.",
+        "notability": "Currently undergoing significant digital transformation to modernize court technologies.",
+        "evidence": "Active recruitment for IT architects, software developers, and data specialists.",
+        "link": "https://careers.justice.govt.nz/",
+        "techStack": [
+            ".NET",
+            "React",
+            "SQL Server",
+            "Azure"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "3.8",
+        "id": 89
+    },
+    {
+        "name": "Auckland Council",
+        "category": "Government & Public Sector",
+        "subSector": "Local Government",
+        "status": "hiring",
+        "description": "The largest local government council in Australasia, managing vast digital services for citizens.",
+        "notability": "Huge IT department managing everything from smart city infrastructure to property databases.",
+        "evidence": "Frequent hiring for geospatial (GIS) specialists, data analysts, and enterprise developers.",
+        "link": "https://careers.aucklandcouncil.govt.nz/",
+        "techStack": [
+            "GIS",
+            "Python",
+            ".NET",
+            "SAP",
+            "Azure"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "3.7",
+        "id": 90
+    },
+    {
+        "name": "Wellington City Council",
+        "category": "Government & Public Sector",
+        "subSector": "Local Government",
+        "status": "hiring",
+        "description": "Local government authority driving digital city initiatives and public infrastructure tech.",
+        "notability": "Strong focus on digital twins, IoT for city management, and public-facing web services.",
+        "evidence": "Hires for data, software, and systems engineering roles.",
+        "link": "https://careers.wellington.govt.nz/",
+        "techStack": [
+            "JavaScript",
+            "Azure",
+            "Python",
+            "GIS"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "3.8",
+        "id": 91
     }
 ]
