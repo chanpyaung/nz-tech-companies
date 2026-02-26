@@ -1207,5 +1207,157 @@
         ],
         "location": "Christchurch",
         "glassdoorRating": "4.3"
+    },
+    {
+        "name": "Crimson Education",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "EdTech",
+        "status": "hiring",
+        "description": "Global education technology company helping students get into top universities.",
+        "notability": "One of NZ's highest-valued startups, operating globally.",
+        "evidence": "Continuous global expansion and active hiring across product and engineering.",
+        "link": "https://www.crimsoneducation.org/nz/careers/",
+        "techStack": [
+            "React",
+            "Node.js",
+            "Python",
+            "AWS"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.1",
+        "id": 66
+    },
+    {
+        "name": "Dawn Aerospace",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "Aerospace / Deep Tech",
+        "status": "hiring",
+        "description": "Building same-day reusable launch vehicles and sustainable space propulsion systems.",
+        "notability": "Pioneering green propellants and reusable space planes. Backed by Icehouse Ventures.",
+        "evidence": "Scaling up production and testing in NZ and Europe.",
+        "link": "https://www.dawnaerospace.com/careers",
+        "techStack": [
+            "C++",
+            "Python",
+            "Embedded C",
+            "Rust"
+        ],
+        "location": "Christchurch",
+        "glassdoorRating": "4.5",
+        "id": 67
+    },
+    {
+        "name": "First AML",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "RegTech / SaaS",
+        "status": "hiring",
+        "description": "Specialized anti-money laundering (AML) customer onboarding platform.",
+        "notability": "Rapidly growing RegTech backed by Icehouse Ventures and Blackbird Ventures.",
+        "evidence": "Expanding operations into the UK, Europe, and Australia.",
+        "link": "https://www.firstaml.com/careers",
+        "techStack": [
+            "React",
+            "Node.js",
+            "Typescript",
+            "AWS"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.6",
+        "id": 68
+    },
+    {
+        "name": "Mint Innovation",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "CleanTech / Deep Tech",
+        "status": "hiring",
+        "description": "Uses biotechnology and clean chemistry to recover valuable metals from electronic waste.",
+        "notability": "Innovative deep-tech startup tackling global e-waste. Icehouse Ventures portfolio company.",
+        "evidence": "Building commercial-scale biorefineries globally.",
+        "link": "https://www.mint.bio/careers",
+        "techStack": [
+            "Data Science",
+            "Python",
+            "Automation"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.8",
+        "id": 69
+    },
+    {
+        "name": "Tradify",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "SaaS",
+        "status": "hiring",
+        "description": "Job management software designed specifically for tradespeople to manage quoting, scheduling, and invoicing.",
+        "notability": "Used by tens of thousands of tradespeople globally, strong backing from Icehouse Ventures.",
+        "evidence": "Scaling customer base globally, actively hiring engineers.",
+        "link": "https://www.tradifyhq.com/careers",
+        "techStack": [
+            "React",
+            ".NET",
+            "SQL",
+            "Azure"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.4",
+        "id": 70
+    },
+    {
+        "name": "Partly",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "SaaS / AutoTech",
+        "status": "hiring",
+        "description": "Building the global platform for automotive replacement parts, connecting buyers and sellers with accurate part data.",
+        "notability": "Raised significant capital from top global VCs including Blackbird and Icehouse. One of NZ's fastest-growing startups.",
+        "evidence": "Ambitious global expansion, hiring for data, engineering, and platform roles.",
+        "link": "https://www.partly.com/careers",
+        "techStack": [
+            "Rust",
+            "TypeScript",
+            "React",
+            "PostgreSQL",
+            "AWS"
+        ],
+        "location": "Christchurch",
+        "glassdoorRating": "4.9",
+        "id": 71
+    },
+    {
+        "name": "Dexibit",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "Data Analytics / AI",
+        "status": "hiring",
+        "description": "Big data analytics and AI platform specifically designed for visitor attractions like museums and zoos.",
+        "notability": "Leading analytics provider for global cultural institutions.",
+        "evidence": "Expanding its AI capabilities and international footprint.",
+        "link": "https://dexibit.com/careers/",
+        "techStack": [
+            "Python",
+            "React",
+            "AWS",
+            "Machine Learning"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.5",
+        "id": 72
+    },
+    {
+        "name": "Letterboxd",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "Social Media / Entertainment",
+        "status": "hiring",
+        "description": "A global social network for film discovery and discussion.",
+        "notability": "Massively popular globally with millions of active users, recently secured majority investment from Canadian firm Tiny.",
+        "evidence": "Growing its engineering team to handle massive global scale.",
+        "link": "https://letterboxd.com/about/jobs/",
+        "techStack": [
+            "Vue.js",
+            "Java",
+            "Spring Boot",
+            "PostgreSQL"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.7",
+        "id": 73
     }
 ]
