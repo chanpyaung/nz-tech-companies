@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { getStatusInfo, getTechColor } from "../../utils/styleUtils";
-import { X } from "lucide-react";
+import { X, Star } from "lucide-react";
 
 function CompanyModal({ company, onClose }) {
     if (!company) return null;
@@ -29,8 +29,16 @@ function CompanyModal({ company, onClose }) {
                 <div className="p-6">
                     <div className="flex justify-between items-start">
                         <div>
-                            <h2 className="text-2xl font-bold">{company.name}</h2>
-                            <p className="text-sm text-gray-500">{company.category} | {company.subSector}</p>
+                            <div className="flex items-center gap-3">
+                                <h2 className="text-2xl font-bold">{company.name}</h2>
+                                {company.glassdoorRating && (
+                                    <span className="flex items-center text-sm font-semibold text-gray-700 bg-gray-100 px-2 py-1 rounded">
+                                        <Star size={16} className="text-yellow-400 mr-1 fill-yellow-400" />
+                                        {company.glassdoorRating}
+                                    </span>
+                                )}
+                            </div>
+                            <p className="text-sm text-gray-500 mt-1">{company.category} | {company.subSector}</p>
                         </div>
                         <button onClick={onClose} className="text-gray-400 hover:text-gray-600"><X size={24} /></button>
                     </div>
@@ -45,7 +53,9 @@ function CompanyModal({ company, onClose }) {
                         </div>
                         <div>
                             <h4 className="font-semibold mb-1">Employment Status</h4>
-                            <span className={`text-sm font-medium px-3 py-1 rounded-full ${statusInfo.bg} ${statusInfo.color}`}>{statusInfo.icon} {statusInfo.text}</span>
+                            <span className={`inline-flex items-center text-sm font-medium px-3 py-1 rounded-full ${statusInfo.bg} ${statusInfo.color}`}>
+                                <span className="mr-1">{statusInfo.icon}</span> {statusInfo.text}
+                            </span>
                             <p className="mt-2 text-sm text-gray-600">{company.evidence}</p>
                         </div>
                         <div>

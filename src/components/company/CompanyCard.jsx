@@ -1,11 +1,20 @@
 import { getStatusInfo, getTechColor } from "../../utils/styleUtils";
+import { Star } from "lucide-react";
 
 function CompanyCard({ company, onSelect }) {
     const statusInfo = getStatusInfo(company.status);
     return (
         <div onClick={() => onSelect(company)} className="bg-white rounded-lg shadow-md p-5 flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <div className="flex-grow">
-                <h3 className="font-bold text-lg text-gray-800">{company.name}</h3>
+                <div className="flex justify-between items-start mb-1">
+                    <h3 className="font-bold text-lg text-gray-800">{company.name}</h3>
+                    {company.glassdoorRating && (
+                        <div className="flex items-center text-sm font-semibold text-gray-700 bg-gray-100 px-2 py-0.5 rounded flex-shrink-0 ml-2">
+                            <Star size={14} className="text-yellow-400 mr-1 fill-yellow-400" />
+                            {company.glassdoorRating}
+                        </div>
+                    )}
+                </div>
                 <p className="text-sm text-gray-500 mb-3">{company.subSector}</p>
                 <p className="text-sm text-gray-600 mb-4 line-clamp-2">{company.description}</p>
                 <div className="flex flex-wrap gap-1 mb-4">

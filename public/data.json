@@ -16,7 +16,8 @@
             "AWS",
             "SQL Server"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.2"
     },
     {
         "id": 2,
@@ -34,7 +35,8 @@
             "FPGA",
             "React"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.8"
     },
     {
         "id": 3,
@@ -53,7 +55,8 @@
             "PostgreSQL",
             "Terraform"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.6"
     },
     {
         "id": 4,
@@ -71,7 +74,8 @@
             "React Native",
             "Azure"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.9"
     },
     {
         "id": 5,
@@ -89,7 +93,8 @@
             "AWS",
             "MySQL"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.4"
     },
     {
         "id": 6,
@@ -107,7 +112,8 @@
             "Vue.js",
             "Azure"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.8"
     },
     {
         "id": 7,
@@ -125,7 +131,8 @@
             "PostGIS",
             "AWS"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "5.0"
     },
     {
         "id": 8,
@@ -142,7 +149,8 @@
             "React",
             "PostgreSQL"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.9"
     },
     {
         "id": 9,
@@ -161,7 +169,8 @@
             "AWS",
             "Terraform"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.0"
     },
     {
         "id": 10,
@@ -180,7 +189,8 @@
             "Swift",
             "Kotlin"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.1"
     },
     {
         "id": 11,
@@ -198,7 +208,8 @@
             "AWS",
             "Salesforce"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.1"
     },
     {
         "id": 12,
@@ -216,7 +227,8 @@
             "Azure",
             "React"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.0"
     },
     {
         "id": 13,
@@ -269,7 +281,8 @@
             "SQL Server",
             "Azure"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.2"
     },
     {
         "id": 16,
@@ -324,7 +337,8 @@
             "iOS",
             "Android"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.2"
     },
     {
         "id": 19,
@@ -433,7 +447,8 @@
             "Java",
             ".NET"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.8"
     },
     {
         "id": 25,
@@ -583,7 +598,8 @@
             "Houdini",
             "Unreal Engine"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.6"
     },
     {
         "id": 33,
@@ -654,7 +670,8 @@
             "GCP",
             "Salesforce"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.0"
     },
     {
         "id": 37,
@@ -746,7 +763,8 @@
             "React",
             "TypeScript"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.4"
     },
     {
         "id": 42,
@@ -764,7 +782,8 @@
             "React",
             "AWS"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "3.8"
     },
     {
         "id": 43,
@@ -783,7 +802,8 @@
             "Python",
             "TypeScript"
         ],
-        "location": ""
+        "location": "",
+        "glassdoorRating": "4.4"
     },
     {
         "id": 44,
@@ -1130,5 +1150,62 @@
             "PostgreSQL"
         ],
         "location": ""
+    },
+    {
+        "id": 63,
+        "name": "Auror",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "Retail Crime Intelligence",
+        "status": "hiring",
+        "description": "Retail crime intelligence platform connecting retailers and police to reduce crime.",
+        "notability": "Global expansion and leading retail crime prevention platform.",
+        "evidence": "Consistent hiring across engineering and product.",
+        "link": "https://www.auror.co/careers",
+        "techStack": [
+            "C#",
+            ".NET",
+            "React",
+            "SQL Server"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.8"
+    },
+    {
+        "id": 64,
+        "name": "Kami",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "EdTech",
+        "status": "hiring",
+        "description": "A digital classroom app providing tools to transform any document into an interactive learning experience.",
+        "notability": "Used by millions of teachers and students globally, named in TIME100 Most Influential Companies.",
+        "evidence": "Strong revenue growth and continuous hiring in Auckland.",
+        "link": "https://www.kamiapp.com/careers",
+        "techStack": [
+            "React",
+            "Node.js",
+            "Ruby on Rails",
+            "PostgreSQL"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.7"
+    },
+    {
+        "id": 65,
+        "name": "Seequent",
+        "category": "NZX-Listed & Large Enterprises",
+        "subSector": "Geoscience Software",
+        "status": "hiring",
+        "description": "A world leader in earth modeling, geo-data management, and team collaboration software.",
+        "notability": "Acquired by Bentley Systems for $1.05 billion USD.",
+        "evidence": "Maintains a massive engineering hub in Christchurch.",
+        "link": "https://www.seequent.com/company/careers/",
+        "techStack": [
+            "C++",
+            "C#",
+            "Python",
+            "React"
+        ],
+        "location": "Christchurch",
+        "glassdoorRating": "4.3"
     }
 ]
