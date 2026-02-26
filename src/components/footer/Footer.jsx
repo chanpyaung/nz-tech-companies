@@ -4,9 +4,17 @@ import tailwindLogo from '../../assets/tailwind.svg'
 import viteLogo from '../../assets/vite.svg'
 
 function Footer() {
+    // Determine the last updated date. If build time env is provided, format it, otherwise use fallback.
+    const rawDate = import.meta.env.VITE_BUILD_TIME || new Date().toISOString();
+    const formattedDate = new Date(rawDate).toLocaleDateString('en-NZ', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+    });
+
     return (
-        <footer className="bg-white/80 backdrop-blur-lg shadow-inner py-4 mt-8">
-            <div className="container mx-auto px-4 flex items-center justify-between">
+        <footer className="bg-white/80 backdrop-blur-lg shadow-inner py-4 mt-8 flex flex-col items-center">
+            <div className="container mx-auto px-4 flex items-center justify-between w-full">
                 <div className="flex-1"></div>
 
                 <div className="flex-1 flex flex-col items-center">
@@ -33,6 +41,10 @@ function Footer() {
                     <img src={reactLogo} alt="React" className="h-6 w-6" />
                     <img src={tailwindLogo} alt="Tailwind CSS" className="h-6 w-6" />
                 </div>
+            </div>
+            
+            <div className="text-xs text-gray-400 mt-4">
+                Last updated: {formattedDate}
             </div>
         </footer>
     );
