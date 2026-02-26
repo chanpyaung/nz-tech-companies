@@ -1359,5 +1359,192 @@
         "location": "Auckland",
         "glassdoorRating": "4.7",
         "id": 73
+    },
+    {
+        "name": "Dosh",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / Payments",
+        "status": "hiring",
+        "description": "New Zealand's first digital wallet and true neobank alternative, offering instant payments and rewards.",
+        "notability": "Pioneering the neobank space in NZ, winning several financial innovation awards.",
+        "evidence": "Growing user base and actively building out their engineering and product teams.",
+        "link": "https://www.dosh.nz/careers",
+        "techStack": [
+            "React Native",
+            "Node.js",
+            "AWS",
+            "TypeScript"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.5",
+        "id": 74
+    },
+    {
+        "name": "Akahu",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / Open Banking",
+        "status": "hiring",
+        "description": "New Zealand's open finance platform, providing APIs that connect to NZ bank accounts.",
+        "notability": "The foundational layer for open banking in NZ, backed by Westpac and independent investors.",
+        "evidence": "Crucial infrastructure for other NZ FinTechs, expanding API capabilities.",
+        "link": "https://www.akahu.nz/",
+        "techStack": [
+            "Node.js",
+            "PostgreSQL",
+            "AWS",
+            "Vue.js"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.8",
+        "id": 75
+    },
+    {
+        "name": "Kernel Wealth",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / WealthTech",
+        "status": "hiring",
+        "description": "Digital wealth platform offering index funds and savings products.",
+        "notability": "Rapidly capturing market share in the retail investment space against older incumbents.",
+        "evidence": "Continually rolling out new financial products and hiring developers.",
+        "link": "https://kernelwealth.co.nz/careers",
+        "techStack": [
+            "Vue.js",
+            "C#",
+            ".NET",
+            "Azure"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.9",
+        "id": 76
+    },
+    {
+        "name": "BlinkPay",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / Payments",
+        "status": "hiring",
+        "description": "Maori-owned payment gateway utilizing open banking to facilitate direct bank transfers.",
+        "notability": "Leading the charge in low-cost digital payments using new open banking APIs.",
+        "evidence": "Partnering with major banks and hiring API developers.",
+        "link": "https://www.blinkpay.co.nz/",
+        "techStack": [
+            "Java",
+            "Spring Boot",
+            "React",
+            "AWS"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.6",
+        "id": 77
+    },
+    {
+        "name": "Figured",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "AgriTech / FinTech",
+        "status": "hiring",
+        "description": "Leading farm financial management software, heavily integrated with Xero.",
+        "notability": "Used by thousands of farmers globally, expanding across the US, UK, and Australia.",
+        "evidence": "Strong consistent hiring for product and engineering.",
+        "link": "https://www.figured.com/careers",
+        "techStack": [
+            "PHP",
+            "React",
+            "AWS",
+            "Laravel"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "4.4",
+        "id": 78
+    },
+    {
+        "name": "CropX",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "AgriTech",
+        "status": "hiring",
+        "description": "Global agronomic farm management system using soil sensors and data analytics.",
+        "notability": "Global company with a massive engineering and research hub in New Zealand (following acquisitions).",
+        "evidence": "Hiring data scientists and hardware engineers.",
+        "link": "https://cropx.com/careers/",
+        "techStack": [
+            "Python",
+            "Machine Learning",
+            "IoT",
+            "AWS"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "4.2",
+        "id": 79
+    },
+    {
+        "name": "RocketWerkz",
+        "category": "Creative Tech & Gaming",
+        "subSector": "Game Development",
+        "status": "hiring",
+        "description": "AAA game development studio founded by Dean Hall, creator of DayZ. Makers of Icarus.",
+        "notability": "One of NZ's largest independent game studios with a waterfront Auckland HQ.",
+        "evidence": "Constantly hiring Unreal Engine developers and 3D artists.",
+        "link": "https://rocketwerkz.com/careers",
+        "techStack": [
+            "Unreal Engine",
+            "C++",
+            "Blueprints"
+        ],
+        "location": "Auckland",
+        "glassdoorRating": "3.9",
+        "id": 80
+    },
+    {
+        "name": "PaperKite",
+        "category": "Consulting & Professional Services",
+        "subSector": "Digital Agency",
+        "status": "hiring",
+        "description": "Award-winning digital product agency building high-profile apps for enterprise clients.",
+        "notability": "Wellington-based powerhouse responsible for many of NZ's most used mobile apps.",
+        "evidence": "Steady hiring pipeline for native mobile and backend developers.",
+        "link": "https://www.paperkite.co.nz/careers/",
+        "techStack": [
+            "Swift",
+            "Kotlin",
+            "React Native",
+            "Node.js"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "4.7",
+        "id": 81
+    },
+    {
+        "name": "Optimal Workshop",
+        "category": "High-Growth Scale-Ups & Unicorns",
+        "subSector": "SaaS / UX Tools",
+        "status": "hiring",
+        "description": "Provides a suite of usability testing and user research tools used by UX designers globally.",
+        "notability": "A classic Wellington tech success story, bootstrapped and globally profitable.",
+        "evidence": "Maintains a strong, culture-focused engineering team in Wellington.",
+        "link": "https://www.optimalworkshop.com/careers",
+        "techStack": [
+            "Ruby on Rails",
+            "React",
+            "PostgreSQL"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "4.8",
+        "id": 82
+    },
+    {
+        "name": "Volley",
+        "category": "Emerging Innovators & Startups",
+        "subSector": "FinTech / SaaS",
+        "status": "hiring",
+        "description": "Building infrastructure for instant, programmable payouts.",
+        "notability": "An exciting Wellington-based fintech building modern payment rails.",
+        "evidence": "Hiring specialized backend and fintech engineers.",
+        "link": "https://www.volley.nz/",
+        "techStack": [
+            "Go",
+            "AWS",
+            "React"
+        ],
+        "location": "Wellington",
+        "glassdoorRating": "5.0",
+        "id": 83
     }
 ]
