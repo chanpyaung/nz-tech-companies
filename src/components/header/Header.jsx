@@ -10,7 +10,7 @@ function Header() {
                     <a href="#overview" className="text-gray-600 hover:text-[#D8A778] transition-colors">Overview</a>
                     <a href="#explorer" className="text-gray-600 hover:text-[#D8A778] transition-colors">Explorer</a>
                     <a 
-                        href="https://github.com/chanpyaung/nz-tech-companies/issues/new/choose" 
+                        href="https://github.com/chanpyaung/nz-tech-companies/issues/new?template=add_company.yml" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className="bg-[#D8A778] text-white px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-colors"
